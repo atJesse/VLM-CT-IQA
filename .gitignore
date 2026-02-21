@@ -1,0 +1,26 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folders
+venv/
+.venv/
+env/
+.env/
+
+# IDE and editor folders
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+
+
+# Ignore all large datasets.
+# This will ignore the entire LDCTiqa_png folder and its contents.
+data/LDCTiqa_png/
+inferenceOut/
+medgemma_sft_output/
+

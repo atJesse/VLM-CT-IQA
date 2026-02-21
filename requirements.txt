@@ -1,0 +1,33 @@
+# ==============================================================================
+# WARNING: PyTorch Nightly Build
+# ------------------------------------------------------------------------------
+# This project was developed using a specific nightly (development) version of
+# PyTorch, as listed below. Nightly builds can be unstable and may not be
+# available for all platforms or at a later date.
+#
+# RECOMMENDED:
+# 1. Install a recent STABLE version of PyTorch for your system from the
+#    official website: https://pytorch.org/get-started/locally/
+# 2. Comment out the 'torch', 'torchaudio', and 'torchvision' lines below.
+# 3. Run `pip install -r requirements.txt` to install the other dependencies.
+# ==============================================================================
+
+accelerate==1.10.1
+bitsandbytes==0.48.1
+datasets==4.1.1
+numpy==2.1.2
+pandas==2.3.3
+peft==0.17.1
+pillow==11.3.0
+PyYAML==6.0.3
+safetensors==0.6.2
+scikit-learn==1.7.2
+scipy==1.15.3
+tensorboard==2.20.0
+tokenizers==0.22.1
+#torch==2.10.0.dev20251006+cu128
+#torchaudio==2.8.0.dev20251006+cu128
+#torchvision==0.25.0.dev20251006+cu128
+tqdm==4.67.1
+transformers==4.57.0
+trl==0.23.1
